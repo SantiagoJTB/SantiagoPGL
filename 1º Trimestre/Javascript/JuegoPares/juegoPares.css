@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilo general para la tabla */
 #table {
     margin: 0 auto;
@@ -77,3 +78,84 @@ body {
     padding: 0;
     background-color: #f9f9f9; /* Fondo general */
 }
+=======
+/* Estilo general para la tabla */
+#table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para las celdas de la tabla */
+#table td {
+    padding: 5px;
+}
+
+/* Estilo para los botones dentro de la tabla */
+#table button {
+    width: 50px; /* Ancho fijo para los botones */
+    height: 50px; /* Alto fijo para los botones */
+    font-size: 20px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto */
+    line-height: 50px; /* Centrar verticalmente el texto */
+    background-color: #10ce49; /* Color de fondo */
+    border: 2px solid #ddd; /* Borde de los botones */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+}
+
+#table button:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el ratón */
+    border-color: #bbb; /* Color del borde al pasar el ratón */
+}
+
+#table button:disabled {
+    background-color: #ccc; /* Color de fondo para botones deshabilitados */
+    border-color: #aaa; /* Color del borde para botones deshabilitados */
+    cursor: not-allowed; /* Cambiar el cursor cuando está deshabilitado */
+}
+
+/* Estilo para el contenedor de la información */
+.info-container {
+    text-align: center; /* Centrar el texto en el contenedor */
+    margin-top: 20px; /* Espacio arriba del contenedor */
+}
+
+/* Estilo para el botón de subir de nivel */
+#subirNivelBtn {
+    display: none; /* Inicialmente oculto */
+    margin: 20px auto; /* Espacio arriba y centrar horizontalmente */
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+#subirNivelBtn:hover {
+    background-color: #45a049; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilo para los contadores */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    text-align: center; /* Centramos todo el texto */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo general */
+}
+>>>>>>> d892f7d6f172618a3a73a4a4d46e5773c3f457c3
