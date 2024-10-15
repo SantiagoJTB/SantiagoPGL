@@ -1,0 +1,25 @@
+/* styles.css */
+.rojo {
+    background-color: red;
+    border: 2px solid darkred;
+    color: white;
+  }
+  
+  .verde {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: white;
+  }
+  
+  .azul {
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: white;
+  }
+  
+  .amarillo {
+    background-color: yellow;
+    border: 2px solid orange;
+    color: black;
+  }
+  
