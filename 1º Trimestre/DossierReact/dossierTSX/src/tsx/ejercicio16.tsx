@@ -1,5 +1,5 @@
 import React from 'react';
-import { Reloj } from './Reloj'; // Asegúrate de que la ruta sea correcta
+import { Reloj } from './ejercicio6/Reloj'; // Asegúrate de que la ruta sea correcta
 
 const Ejercicio16 = () => {
   const zonasHorarias = [

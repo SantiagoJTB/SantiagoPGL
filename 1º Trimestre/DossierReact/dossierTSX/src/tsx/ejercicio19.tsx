@@ -1,23 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, { useRef } from 'react'
+const EjemploUseRef = () => {
+const inputnumero = useRef<HTMLInputElement>({} as HTMLInputElement);
+const divresultado = useRef<HTMLDivElement>({} as HTMLDivElement);
+function multiplicar(){
+let htmlinput = inputnumero.current;
+let numero = Number(htmlinput.value);
+let htmldiv = divresultado.current;
 
-type Props = {};
-
-const EjemploUseEffect = (props: Props) => {
-  const [contador, setContador] = useState<number>(100);
-
-  useEffect(() => {
-    const efecto = () => {
-      let fecha = new Date();
-      console.log(fecha);
-    };
-    efecto();
-  }, /*[] */); 
-  return (
-    <div>
-      <h3>info en state: {contador}</h3>
-      <button onClick={() => setContador(contador + 1)}>Actualizar state</button>
-    </div>
-  );
-};
-
-export default EjemploUseEffect;
+htmldiv.innerText = "" + ( 2 * numero);
+}
+return (
+<div>
+<h4>Componente Ejemplo useRef</h4>
+<input type="text" ref={inputnumero} />
+<button onClick={multiplicar}>Multiplicar por 2</button>
+<div ref={divresultado}>
+</div>
+</div>
+)
+}
+export default EjemploUseRef

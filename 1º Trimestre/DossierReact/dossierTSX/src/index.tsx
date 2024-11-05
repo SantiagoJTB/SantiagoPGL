@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import reportWebVitals from './reportWebVitals';
-import Ejercicio6 from './tsx/ejercicio6';
-import Ejercicio19 from './tsx/ejercicio19';
+import ejercicio37 from './tsx/ejercicio37';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +10,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Ejercicio19 />
+    <ejercicio37 />
   </React.StrictMode>
 );
 
